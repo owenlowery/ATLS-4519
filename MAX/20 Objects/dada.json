@@ -1,0 +1,66 @@
+{
+	"pattrstorage" : 	{
+		"name" : "dada",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"slingblade" : [ 108 ],
+					"mypattr" : [ 108 ],
+					"number" : [  ],
+					"number[1]" : [  ],
+					"number[2]" : [  ],
+					"slider[2]" : [  ],
+					"slider[3]" : [  ],
+					"slider[4]" : [  ],
+					"slider[5]" : [  ],
+					"slider[6]" : [  ],
+					"slider[7]" : [  ],
+					"slingblade2" : [  ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"slingblade" : [ 108 ],
+					"mypattr" : [ 108 ],
+					"number" : [  ],
+					"number[1]" : [  ],
+					"number[2]" : [  ],
+					"slider[2]" : [  ],
+					"slider[3]" : [  ],
+					"slider[4]" : [  ],
+					"slider[5]" : [  ],
+					"slider[6]" : [  ],
+					"slider[7]" : [  ],
+					"slingblade2" : [  ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"slingblade" : [ 108 ],
+					"mypattr" : [ 108 ],
+					"number" : [  ],
+					"number[1]" : [  ],
+					"number[2]" : [  ],
+					"slider[2]" : [  ],
+					"slider[3]" : [  ],
+					"slider[4]" : [  ],
+					"slider[5]" : [  ],
+					"slider[6]" : [  ],
+					"slider[7]" : [  ],
+					"slingblade2" : [  ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
