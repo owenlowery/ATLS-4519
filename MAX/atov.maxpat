@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1444.0, 763.0 ],
+		"rect" : [ 34.0, 163.0, 1010.0, 876.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,18 +40,6 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-36",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 576.0, 666.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"annotation" : "## Convert BEAP module output (control voltages/MIDI) to VIZZIE data ##",
 					"bgmode" : 1,
 					"border" : 0,
@@ -67,7 +55,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 791.0, 486.0, 108.0, 78.0 ],
+					"patching_rect" : [ 861.333359003067017, 486.666681170463562, 108.0, 78.0 ],
 					"prototypename" : "pixl",
 					"varname" : "beapconvertr[2]",
 					"viewvisibility" : 1
@@ -91,7 +79,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 796.0, 323.074813842773438, 214.0, 116.0 ],
+					"patching_rect" : [ 783.0, 328.000009775161743, 214.0, 116.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 662.833356261253357, 195.0, 213.0, 100.0 ],
 					"varname" : "bp.CV LFO",
@@ -116,7 +104,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 465.0, 388.153552412986755, 228.0, 130.0 ],
+					"patching_rect" : [ 458.333315849304199, 388.153552412986755, 228.0, 130.0 ],
 					"prototypename" : "pixl",
 					"varname" : "mappr",
 					"viewvisibility" : 1
@@ -328,7 +316,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1049.606354892253876, 388.153552412986755, 360.0, 23.0 ],
-					"text" : "0.031777 0.063554 0.031777 -1.737561 0.864668"
+					"text" : "0.131037 0.262074 0.131037 -1.580086 0.84216"
 				}
 
 			}
@@ -416,7 +404,7 @@
 					"patching_rect" : [ 1049.606354892253876, 216.5, 360.0, 155.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 535.5, 529.333349108695984, 336.0, 165.333338260650635 ],
-					"setfilter" : [ 0, 1, 1, 0, 0, 2837.0, 1.0, 2.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"setfilter" : [ 0, 1, 1, 0, 0, 4124.89794921875, 2.0, 3.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 					"varname" : "filtergraph~"
 				}
 
@@ -1016,6 +1004,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-81", 5 ],
+					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-34", 0 ]
 				}
@@ -1023,23 +1018,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-81", 5 ],
-					"source" : [ "obj-36", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
-					"order" : 0,
-					"source" : [ "obj-37", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-36", 0 ],
-					"order" : 1,
 					"source" : [ "obj-37", 0 ]
 				}
 
